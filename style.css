@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --lime-green: #B2FF59;
+    --light-lime-green:#e2fac7;
+    --blue: #0057FF;
+    --orange:#FF6B35;
+    --main-font: Josefin Sans;
+    --secondary-font: Nunito;
+}
+
+
+
