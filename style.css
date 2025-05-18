@@ -256,9 +256,17 @@ form button{
     margin: 2rem;
 }
 
+form button:hover{
+    background: rgb(0, 0, 0);
+    transition: all  0.2s ease;
+    cursor:pointer;
+}
+
 .btn-container{
    display: flex;
    justify-content: center;
 }
+
+
 
 /* Contact Form End */
