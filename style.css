@@ -198,7 +198,7 @@ section{
 
 /* Contact Form Start */
 .form-section{
-    background-color:#fdfeb9;
+    background-color:#e6fcce;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -267,6 +267,50 @@ form button:hover{
    justify-content: center;
 }
 
-
-
 /* Contact Form End */
+
+/* Footer Start */
+.footer {
+    background: linear-gradient(to bottom, #e6fcce, #89ee36);
+    color: #333;
+    padding: 60px 20px 40px; /* más espacio arriba */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff6f61;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  
+  .footer a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #d64c47;
+  }
+  
+  .footer hr {
+    margin: 20px auto;
+    width: 60%;
+    border: 0;
+    height: 1px;
+    background: #fff;
+    opacity: 0.5;
+  }
+  
+  
+/* Footer End */
