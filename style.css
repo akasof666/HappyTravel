@@ -69,6 +69,23 @@ nav{
     cursor:pointer;
 }
 
+.logo-img img{
+    height: 15rem;
+    width: 18rem;
+    cursor:pointer;
+}
+
+.logo-img {
+    height: 15rem;
+    width: 18rem; 
+    background-color: var(--blue);
+    mask-image: url(/img/converted_image.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+
+}
+
 /* Nav End */
 
 
@@ -273,9 +290,9 @@ form button:hover{
 .footer {
     background: linear-gradient(to bottom, #e6fcce, #89ee36);
     color: #333;
-    padding: 60px 20px 40px; /* más espacio arriba */
+    padding: 60px 20px 40px; 
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--secondary-font);
     width: 100%;
     box-sizing: border-box;
   }
